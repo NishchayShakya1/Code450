@@ -16,8 +16,8 @@ public:
             return NULL;
         }
         if(head->next == NULL){
-            ListNode* todelete = head;
-            delete todelete;
+            // ListNode* todelete = head;
+            // delete todelete;
             return NULL;
         }
         if(head->next->next == NULL){
