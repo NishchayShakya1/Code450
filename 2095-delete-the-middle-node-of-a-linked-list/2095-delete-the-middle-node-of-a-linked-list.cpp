@@ -21,9 +21,9 @@ public:
             return NULL;
         }
         if(head->next->next == NULL){
-            ListNode* todelete = head->next;
+            // ListNode* todelete = head->next;
             head->next = NULL;
-            delete todelete;
+            // delete todelete;
             return head;
         }
         
