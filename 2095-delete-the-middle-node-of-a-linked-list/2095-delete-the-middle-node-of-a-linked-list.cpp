@@ -35,9 +35,9 @@ public:
             slow = slow->next;
         }
         
-        ListNode* todelete = slow->next;
+        // ListNode* todelete = slow->next;
         slow->next = slow->next->next;
-        delete todelete;
+        // delete todelete;
         return head;
     }
 };
