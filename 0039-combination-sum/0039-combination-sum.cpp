@@ -13,7 +13,7 @@ public:
             return;
         }
         
-        if(idx == candidates.size()){
+        if(idx > candidates.size()-1){
             return;
         }
         
