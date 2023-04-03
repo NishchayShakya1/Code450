@@ -9,12 +9,12 @@ public:
             
             if(people[i] + people[n] <= limit){
                 i++;
-                --n;
+                n--;
             }
             else{
-                --n;
+                n--;
             }
-            ++cnt;
+            cnt++;
         }
         
         return cnt;
