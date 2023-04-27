@@ -13,13 +13,15 @@ public:
     // }
     
     int bulbSwitch(int n) {
-          long long i=1;
-        int ct=0;
-        while((i*i)<=n){
-            i++;
-            ct++;
-        }
-        return ct;
+        //   long long i=1;
+        // int ct=0;
+        // while((i*i)<=n){
+        //     i++;
+        //     ct++;
+        // }
+        // return ct;
+        
+        return sqrt(n);
 //          vector<int>v(n,0);   
 //          for(int i=0; i<n; i++){
 //              toggle(v, n, i);
