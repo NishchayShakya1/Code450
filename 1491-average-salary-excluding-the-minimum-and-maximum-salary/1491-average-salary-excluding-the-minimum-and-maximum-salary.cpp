@@ -6,7 +6,7 @@ public:
          min = *min_element(salary.begin(), salary.end());
          max = *max_element(salary.begin(), salary.end());
          
-         double ans = (sum-(min+max))/(salary.size()-2);
-         return ans;
+     
+         return (sum-(min+max))/(salary.size()-2);;
     }
 };
